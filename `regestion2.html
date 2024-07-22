@@ -1,0 +1,41 @@
+
+    <head>
+        <title>registration form</title>
+        <script>
+            function passvalues()
+            {
+                var name=document.getElementById("name"),value 
+                var email=document.getElementById("email"),value
+                var address=document.getElementById("address"),value
+                localStorage.setItem("name",name);
+                localStorage.setItem("email",email);
+                localStorage.setItem("address",address);
+                return;
+            }
+            </script>
+             </head>
+             <body>
+                <h1>registration form</h1>
+                <form action="details.html">
+                    <fieldlist>
+                        <legend>registration</legend>
+                        <label>name</label>
+                        <input type="text"id="name"/><br></br>
+                        <label>email</label>
+                        <input type="email"id="email"/><br></br>
+                        <label>address</label>
+                        <input type="text"id="address"/><br></br>
+                        <input type="submit"value="submit"onclick="passvalues"()/>
+                    </fieldlist>
+                </form>
+                </body>
+                </html>
+                    
+                
+
+
+
+
+
+
+
